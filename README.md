@@ -2,7 +2,13 @@
 
 `make_village.py` bir tohumdan (seed) low-poly köy kuruyor: arazi, evler, ağaçlar, kayalar, kıvrılan yol. Aynı tohum aynı köyü, başka tohum başka köyü verir. Aynı tür evler tek bir mesh'i paylaşır (ortak mesh / instancing), dosya küçük kalır. Çıktı GLB; Godot doğrudan açar ve kamera Blender'ın yazdığı yol JSON'unu izleyerek köyün üstünden uçar.
 
-`demo.mp4`: Godot Movie Maker kaydı (6 sn uçuş, tohum 1). `seed1_seed2.png`: iki tohumun Blender önizlemesi.
+![Godot'ta köyün üstünden uçuş (tohum 1)](demo.gif)
+
+[▶ Tam kalite video: demo.mp4](demo.mp4)
+
+![Tohum 1 ve tohum 2: iki farklı köy](seed1_seed2.png)
+
+`demo.mp4` / `demo.gif`: Godot Movie Maker kaydı (6 sn uçuş, tohum 1). `seed1_seed2.png`: iki tohumun Blender önizlemesi.
 
 ## Çalıştır
 
